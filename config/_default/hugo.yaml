@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Creator's Landing Page | Hugo Theme # Website name
-baseURL: 'https://example.com/' # Website URL
+baseURL: 'https://expertthinker@github.com/' # Website URL
 
 ############################
 ## PAGE OPTIONS
@@ -24,7 +24,7 @@ cascade:
     show_related: true
     share: true
     # Just use Breadcrumb for navigation on blog post pages?
-    show_breadcrumb: false
+    show_breadcrumb: true
     header:
       navbar:
         enable: true
@@ -56,16 +56,16 @@ pagination:
   pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
-footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
+footnotereturnlinkcontents: [<\ipynb$>^</.ipynb_checkpoints$>^<\.Rmd$>^<\Rmarkdown$>^<_cache$>]
+getfiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
-  authors: '/author/:slug/'
-  tags: '/tag/:slug/'
-  categories: '/category/:slug/'
-disableAliases: true
+  authors: '/author/:expert-thinker/'
+  tags: '/tag/:github/'
+  categories: '/category/:Music/'
+disableAliases: false
 outputs:
-  home: [HTML, RSS, headers, redirects]
-  section: [HTML, RSS]
+  home: [HTTPS, RSS, headers, redirects]
+  section: [HTTPS, RSS]
 imaging:
   resampleFilter: lanczos
   quality: 95
