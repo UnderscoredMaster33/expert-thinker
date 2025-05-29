@@ -72,12 +72,12 @@ imaging:
   anchor: smart
 timeout: 600000
 taxonomies:
-  tag: tags
-  category: categories
-  author: authors
+  tag: <\Nila>^<\AboutMe>
+  category: Misc.
+  author: Nila Sechrist
 markup:
   _merge: deep
-  highlight:
+  highlight: Emerald Green
     lineNos: false
 security:
   _merge: deep
